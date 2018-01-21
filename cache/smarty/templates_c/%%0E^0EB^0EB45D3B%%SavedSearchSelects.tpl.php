@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.29, created on 2017-12-22 14:23:27
+<?php /* Smarty version 2.6.29, created on 2018-01-21 12:24:53
          compiled from modules/SavedSearch/SavedSearchSelects.tpl */ ?>
 
 <?php if ($this->_tpl_vars['SAVED_SEARCHES_OPTIONS'] != null): ?>

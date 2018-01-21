@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.29, created on 2017-12-22 12:07:41
+<?php /* Smarty version 2.6.29, created on 2018-01-21 12:24:53
          compiled from themes/SuiteR/tpls/_headerModuleList.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_link', 'themes/SuiteR/tpls/_headerModuleList.tpl', 53, false),)), $this); ?>

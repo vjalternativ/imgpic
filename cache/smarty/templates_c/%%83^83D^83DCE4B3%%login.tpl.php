@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.29, created on 2017-12-22 12:45:50
+<?php /* Smarty version 2.6.29, created on 2018-01-21 12:17:59
          compiled from themes/SuiteR/tpls/login.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_translate', 'themes/SuiteR/tpls/login.tpl', 45, false),)), $this); ?>

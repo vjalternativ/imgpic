@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.29, created on 2017-12-22 12:06:53
+<?php /* Smarty version 2.6.29, created on 2018-01-21 12:24:56
          compiled from modules/Alerts/templates/default.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('modifier', 'strstr', 'modules/Alerts/templates/default.tpl', 7, false),array('modifier', 'nl2br', 'modules/Alerts/templates/default.tpl', 21, false),)), $this); ?>
