@@ -433,4 +433,9 @@ $sugar_config = array (
     9 => 'BMP',
   ),
   'aws_preview_bucket' => 'alternativlabspreview',
+  
 );
+
+$sugar_config['http_base_url'] = 'https://imgpic.org/';
+$sugar_config['base_url'] = '/';
+$sugar_config['fb_login_redirect'] = 'http://imgpic.org/fblogin/login/';
