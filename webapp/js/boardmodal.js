@@ -1,0 +1,4 @@
+
+function newtest() {
+	alert("sss");	
+}

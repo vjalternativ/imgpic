@@ -1,0 +1,18 @@
+<?php 
+ //WARNING: The contents of this file are auto-generated
+
+
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$mod_strings['LBL_RC_BOARD_RC_CATEGORY_FROM_RC_BOARD_TITLE'] = 'Board';
+
+
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$mod_strings['LBL_RC_CATEGORY_USERS_FROM_USERS_TITLE'] = 'Users';
+$mod_strings['LBL_RC_CATEGORY_RC_CATEGORY_FROM_RC_CATEGORY_L_TITLE'] = 'Categories';
+$mod_strings['LBL_RC_CATEGORY_RC_CATEGORY_FROM_RC_CATEGORY_R_TITLE'] = 'Child Categories';
+
+
+//THIS FILE IS AUTO GENERATED, DO NOT MODIFY
+$mod_strings['LBL_RC_TOPIC_RC_CATEGORY_FROM_RC_TOPIC_TITLE'] = 'Topics';
+
+?>

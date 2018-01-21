@@ -1,0 +1,52 @@
+.block {display:block !important;}
+.Modal .modalScroller { overflow-y:hidden;}
+
+
+.NuxModalStepBase.brio, .NuxModalStepBase.brio_final_loading { 
+
+    max-height: 580px;
+}
+
+.hide {display:none;}
+
+.padding-top-60 {
+padding-top:60px;
+}
+
+.termOfServiceWrapper.margin-top-60 {margin-top:60px;}
+.Pin.summary .pinImg { opacity:1;}
+
+.BoardEditBase.simple .descriptionWrapper, .BoardEditBase.simple .categoryWrapper {display:block;}
+
+.bs-select {width:80%;height:30px;}
+
+
+#settingDropdown { 
+right:10px; 
+}
+#settingDropdown .positionModuleCaret {float:right;position:relative;right:10px;} 
+@media (max-width: 1749px) and (min-width: 1500px)
+{
+.GridItems.padItems>.item {
+    margin: 14px 7px 0 7px;
+    width: 230px;
+}
+.UserBoards { overflow:hidden}
+}
+
+.Image>.heightContainer>img {
+height:auto;
+
+}
+.pinMetaWrapper {clear:both;}
+.Pin.summary .pinCredits { clear:both}
+.white {color:white}
+.anchor-white,.anchor-white:hover {color:white;text-decoration:none !important;}
+
+.topicmodal-body {max-height:480px !important; overflow-y:scroll; }
+
+.opacity-50 {opacity:0.5}
+ 
+.bottom-border {border-bottom:1px solid #ccc; }
+hr {margin-top:5px;margin-bottom:5px;}
+.padding-10 {padding:10px;}
