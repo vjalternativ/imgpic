@@ -417,7 +417,7 @@ $sugar_config = array (
   ),
   'fb_public_key' => '1413944508850545',
   'fb_secret_key' => '8c6b0eecf737c15463472765fd3854d7',
-  'fb_login_redirect' => 'http://alternativlabs.com/imgpic/fblogin/login/',
+  'fb_login_redirect' => 'https://imgpic.org/fblogin/login/',
   'email_xss' => 'YToxMzp7czo2OiJhcHBsZXQiO3M6NjoiYXBwbGV0IjtzOjQ6ImJhc2UiO3M6NDoiYmFzZSI7czo1OiJlbWJlZCI7czo1OiJlbWJlZCI7czo0OiJmb3JtIjtzOjQ6ImZvcm0iO3M6NToiZnJhbWUiO3M6NToiZnJhbWUiO3M6ODoiZnJhbWVzZXQiO3M6ODoiZnJhbWVzZXQiO3M6NjoiaWZyYW1lIjtzOjY6ImlmcmFtZSI7czo2OiJpbXBvcnQiO3M6ODoiXD9pbXBvcnQiO3M6NToibGF5ZXIiO3M6NToibGF5ZXIiO3M6NDoibGluayI7czo0OiJsaW5rIjtzOjY6Im9iamVjdCI7czo2OiJvYmplY3QiO3M6MzoieG1wIjtzOjM6InhtcCI7czo2OiJzY3JpcHQiO3M6Njoic2NyaXB0Ijt9',
   'valid_img_ext' => 
   array (
@@ -435,8 +435,3 @@ $sugar_config = array (
   'aws_preview_bucket' => 'alternativlabspreview',
   
 );
-
-$sugar_config['http_base_url'] = 'https://imgpic.org/';
-$sugar_config['base_url'] = '/';
-$sugar_config['fb_login_redirect'] = 'http://imgpic.org/fblogin/login/';
-$sugar_config['test'] = 'test';
