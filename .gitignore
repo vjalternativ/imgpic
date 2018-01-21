@@ -1,4 +1,5 @@
 config.php
 upload/
+cache/
 sugarcrm.log
 suitecrm.log
