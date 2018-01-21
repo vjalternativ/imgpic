@@ -94,10 +94,10 @@ $sugar_config = array (
   'datef' => 'm/d/Y',
   'dbconfig' => 
   array (
-    'db_host_name' => 's45-40-133-27.secureserver.net',
+    'db_host_name' => 'localhost',
     'db_host_instance' => 'SQLEXPRESS',
-    'db_user_name' => 'imgpic_ip',
-    'db_password' => 'psycho@48',
+    'db_user_name' => 'root',
+    'db_password' => 'root',
     'db_name' => 'imgpic_ip',
     'db_type' => 'mysql',
     'db_port' => '3306',
