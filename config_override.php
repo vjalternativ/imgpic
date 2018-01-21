@@ -72,6 +72,6 @@ $sugar_config['valid_img_ext'][8] = 'GIF';
 $sugar_config['valid_img_ext'][9] = 'BMP';
 $sugar_config['aws_preview_bucket'] = 'imgpicpreviewbucket';
 $sugar_config['aws_region'] = 'ap-south-1';
-$sugar_config['isenablecdn'] = false;
-$sugar_config['cdnurl'] = 'https://imgpic-hmbehms.netdna-ssl.com';
+$sugar_config['isenablecdn'] = true;
+$sugar_config['cdnurl'] = '/imgpic';
 /***CONFIGURATOR***/

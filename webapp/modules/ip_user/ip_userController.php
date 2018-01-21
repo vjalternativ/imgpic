@@ -937,7 +937,7 @@ $_REQUEST['imgsrc'] = $_SERVER['DOCUMENT_ROOT'].$_REQUEST['imgsrc'];
 $img = file_get_contents('./upload/images/208c7c65-8f6c-6ed3-cc0e-59ff5200c81f.jpg');
 $img = file_get_contents($_REQUEST['imgsrc']);
 //$image->link  = $result['ObjectURL'];
-$path = $_SERVER['DOCUMENT_ROOT'].'/upload/images/';
+$path = $_SERVER['DOCUMENT_ROOT'].$sugar_config['base_url'].'upload/images/';
 $image->link = '/upload/images/'.$actual_image_name;
 $x = file_put_contents($path.$actual_image_name,$img);
 
@@ -956,7 +956,7 @@ $image->rc_image_rc_board->add($_REQUEST['boardid']);
 
 $response = array('type'=>'Info | ','msg'=>'saved successfully');
 if(!$x) {
-$response = array('type'=>'Info |','msg'=>'Image is not compatible with system');
+$response = array('type'=>'Info |','msg'=>'Image is not compatible with system'.$path.$actual_image_name);
 
 }
 
