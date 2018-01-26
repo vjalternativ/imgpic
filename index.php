@@ -2,8 +2,9 @@
 
 //ini_set("display_errors",1);
 //error_reporting(E_ALL);
-header("Access-Control-Allow-Origin: {$_SERVER['HTTP_ORIGIN']}");
-header('Access-Control-Allow-Credentials: true');
+header("Access-Control-Allow-Origin: *");
+//header("Access-Control-Allow-Origin: {$_SERVER['HTTP_ORIGIN']}");
+//header('Access-Control-Allow-Credentials: true');
 set_time_limit(0);
 ini_set("memory_limit",-1);
 if(!isset($_REQUEST['module']) && !isset($_REQUEST['action']) && !isset($_REQUEST['entryPoint']) ) {

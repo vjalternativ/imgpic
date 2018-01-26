@@ -74,4 +74,5 @@ $sugar_config['aws_preview_bucket'] = 'imgpicpreviewbucket';
 $sugar_config['aws_region'] = 'ap-south-1';
 $sugar_config['isenablecdn'] = true;
 $sugar_config['cdnurl'] = '/imgpic';
+$sugar_config['modules'][7] = 'chrome';
 /***CONFIGURATOR***/
