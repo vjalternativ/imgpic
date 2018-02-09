@@ -23,6 +23,12 @@ $bean->name=substr($bean->description,0,15)."..";
 
 }
 
+
+function afterDelete($bean,$event,$arguments) {
+        $link  = substr($bean->link,1);
+        unlink($link);        
+}
+
 function afterSaveold($bean,$event,$arguments) {
 
 

@@ -18,5 +18,6 @@ $hook_array['process_record'] = array();
 
 $hook_array['process_record'][] = array(2,'Images process','custom/modules/rc_image/hooks/rc_image.php','RC_ImageHook','processRecord');
 
+$hook_array['after_delete'][] = array(1,'Image after Delete','custom/modules/rc_image/hooks/rc_image.php','RC_ImageHook','afterDelete');
 
 ?>
